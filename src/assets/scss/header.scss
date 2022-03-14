@@ -1,0 +1,23 @@
+@import "@/assets/scss/index.scss";
+
+#header {
+    background-color: $secondary-color;
+    text-align: center;
+}
+
+#bar {
+    background-color: #0c348b;
+}
+
+#donatebtn {
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    color: $secondary-color;
+    height: 100%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-radius: 5%;
+}
