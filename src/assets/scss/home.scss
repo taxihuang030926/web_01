@@ -10,7 +10,7 @@
     display: flex;
     margin: 0;
     overflow: hidden;
-    justify-content: center;
+    justify-content: left;
 
     .title_img{
         object-fit: cover;
@@ -40,6 +40,14 @@
             font-weight: bold;
             letter-spacing: 1px;
         }
+
+        h3{
+            font-family: 'Josefin Sans', sans-serif;
+            color: black;
+            line-height: 2.5em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
         
         span{
             font-weight: 700;
@@ -49,7 +57,6 @@
 
         p{
             font-family: 'Josefin Sans', sans-serif, monospace;
-            color: white;
             font-size: 1.2em;
             line-height: 1.5em;
             word-spacing: 2px;
