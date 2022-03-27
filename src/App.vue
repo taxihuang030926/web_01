@@ -2,12 +2,13 @@
   <div class="app">
     <Header></Header>
     <router-view/>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Footer from "./components/footer.vue"
 import Header from "./components/header.vue"
+import Footer from "./components/footer.vue"
 export default {
   name:'App',
   components:{
@@ -34,7 +35,7 @@ export default {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    color: #f3ef00;
+    color: #000;
     font-size: 18vw;
     font-weight: 700;
 }
