@@ -3,46 +3,34 @@
     <body>
 
   <footer class="footer">
-  	 <div class="container">
+  	 <div class="sec">
   	 	<div class="row">
   	 		<div class="footer-col">
-  	 			<h4>company</h4>
-  	 			<ul>
-  	 				<li><a href="#">about us</a></li>
-  	 				<li><a href="#">our services</a></li>
-  	 				<li><a href="#">privacy policy</a></li>
-  	 				<li><a href="#">affiliate program</a></li>
-  	 			</ul>
+  	 			<router-link to="/about"><h4>About</h4></router-link>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>get help</h4>
-  	 			<ul>
-  	 				<li><a href="#">FAQ</a></li>
-  	 				<li><a href="#">shipping</a></li>
-  	 				<li><a href="#">returns</a></li>
-  	 				<li><a href="#">order status</a></li>
-  	 				<li><a href="#">payment options</a></li>
-  	 			</ul>
+  	 			<router-link to="/project"><h4>Project</h4></router-link>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>online shop</h4>
-  	 			<ul>
-  	 				<li><a href="#">watch</a></li>
-  	 				<li><a href="#">bag</a></li>
-  	 				<li><a href="#">shoes</a></li>
-  	 				<li><a href="#">dress</a></li>
-  	 			</ul>
+  	 			<router-link to="/news"><h4>News</h4></router-link>
   	 		</div>
-  	 		<div class="footer-col">
-  	 			<h4>follow us</h4>
+        	<div class="footer-col">
+            	<router-link to="/blog"><h4>Blog</h4></router-link>
+  	 		</div>
+        	<div class="footer-col">
+            	<router-link to="/contact"><h4>Contact</h4></router-link>
+  	 		</div>
+  	 		<div class="footer-col" style="width:20%;">
+  	 			<p style="font-size: 20px; color: #000; font-weight: 500; margin-bottom: 35px; position: relative;">Follow Me</p>
   	 			<div class="social-links">
-  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
-  	 				<a href="#"><i class="fab fa-instagram"></i></a>
-  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 				<a href="https://www.facebook.com/timmy.haung.1"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://www.youtube.com/channel/UC2lmuzvi5b-9nYQ6qjbtN6A"><i class="fab fa-youtube"></i></a>
+  	 				<a href="https://www.instagram.com/timmyhaung/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://github.com/taxihuang030926"><i class="fab fa-github"></i></a>
   	 			</div>
   	 		</div>
   	 	</div>
+		<p style="margin-bottom:0px; font-size:10px; justify-content:center;">All rights reserved.</p>
   	 </div>
   </footer>
 

@@ -2,16 +2,17 @@
 @import "@/assets/scss/index.scss";
 
 body{
+    height: 20%;
 	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 }
-.container{
-	max-width: 1170px;
+.sec{
+	max-width: 1300px;
     height:60px;
 	margin:auto;
 }
@@ -27,18 +28,19 @@ ul{
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
+   width: 15%;
    padding: 0 15px;
+   
 }
 .footer-col h4{
-	font-size: 18px;
+	font-size: 20px;
 	color: #000;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
+	text-decoration: none;
 }
-
 /*
 .footer-col h4::before{
 	content: '';
@@ -49,12 +51,13 @@ ul{
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
+	text-decoration: none;
 }
 
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
-*/
+
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
@@ -65,15 +68,23 @@ ul{
 	display: block;
 	transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
+*/
+
+.footer-col h4:hover{
 	color: #ffffff;
-	padding-left: 8px;
+	padding-left: 0px;
+	text-decoration: none;
 }
+
+a{
+	text-decoration: none;
+}
+
 .footer-col .social-links a{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255, 255, 255, 0.466);
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
