@@ -3,7 +3,7 @@
   <section id="about">
     
     <div id="about_section1" class="section" style="background-color: #1a1a1a">
-      <img class="title_img" src="../pictures/blog/what?.png">
+      <img class="title_img" src="../pictures/home/home.png">
     </div>
 
     <div id="about_section2" class="section" style="background-color: #1a1a1a">

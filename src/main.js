@@ -3,3 +3,9 @@ import App from './App.vue'
 import router from './router'
 
 createApp(App).use(router).mount('#app')
+
+module.exports = {
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/web_01/'
+      : '/'
+  }
